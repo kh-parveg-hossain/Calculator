@@ -4,47 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CALCULATOR</title>
-    <link rel="stylesheet" href="style.css">
-    
-       
-       
-        
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">       
 </head>
 <body>
+    <!-- Main container for the calculator -->
     <div class="cal">
-        <input type="text" name="" id="inputbox"placeholder="0">
-    
-    <div>
-        <button class="op">AC</button>
-        <button class="op">DEL</button>
-        <button class="op">%</button>
-        <button class="op">/</button>
+        <!-- Input field for displaying the calculator input/output -->
+        <input type="text" name="" id="inputbox" placeholder="0">
+        <!-- Row for clear, delete, percentage, and division operations -->
+        <div>
+            <button class="op">AC</button> <!-- All Clear button -->
+            <button class="op">DEL</button> <!-- Delete button -->
+            <button class="op">%</button> <!-- Percentage button -->
+            <button class="op">/</button> <!-- Division button -->
+        </div>
+        <!-- Row for numbers 7-9 and multiplication -->
+        <div>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="op">*</button> <!-- Multiplication button -->
+        </div>
+        <!-- Row for numbers 4-6 and subtraction -->
+        <div>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="op">-</button> <!-- Subtraction button -->
+        </div>
+        <!-- Row for numbers 1-3 and addition -->
+        <div>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="op">+</button> <!-- Addition button -->
+        </div>
+        <!-- Row for double zero, zero, decimal, and equals -->
+        <div>
+            <button>00</button>
+            <button>0</button>
+            <button>.</button> <!-- Decimal point button -->
+            <button class="eq">=</button> <!-- Equals button -->
+        </div>
     </div>
-    <div>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button class="op">*</button>
-    </div>
-    <div>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button class="op">-</button>
-    </div>
-    <div>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button class="op">+</button>
-    </div>
-    <div>
-        <button>00</button>
-        <button>0</button>
-        <button>.</button>
-        <button class="eq">=</button>
-    </div>
-</div>
-<script src="script.js"></script>
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
 </body>
 </html>
